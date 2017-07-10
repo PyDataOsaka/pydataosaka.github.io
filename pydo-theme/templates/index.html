@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block content %}  
+  <div class="container">
+    
+  </div>
+  <aside id="fh5co-hero" class="js-fullheight">
+    <div class="flexslider js-fullheight">
+      <ul class="slides">
+        <li>
+          <div class="container">
+            <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+              <div class="slider-text-inner">
+              <img src="/{{ THEME_STATIC_DIR }}/images/pydata-osaka-horizontal-alpha.png">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(/{{ THEME_STATIC_DIR }}/images/slide_1.jpg);">
+          <div class="overlay-gradient"></div>
+          <div class="container">
+            <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+              <div class="slider-text-inner">
+                <h2>Python<br>×<br>Data Science</h2>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(/{{ THEME_STATIC_DIR }}/images/slide_2.jpg);">
+          <div class="container">
+            <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+              <div class="slider-text-inner">
+                <h2>Python<br>×<br>Machine Learning</h2>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(/{{ THEME_STATIC_DIR }}/images/slide_3.jpg);">
+          <div class="container">
+            <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+              <div class="slider-text-inner">
+                <h2>You<br>×<br>PyData.Osaka</h2>
+                <p><a href="https://pydata-jp.herokuapp.com" class="btn btn-primary btn-lg">Join PyData-JP Slack</a></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        </ul>
+      </div>
+  </aside>
+
+  <div class="fh5co-about animate-box">
+    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+      <h2>PyData.Osaka</h2>
+      <p>PyCon JP 2014ではデータ分析関連・機械学習関連の発表に非常に大きな関心が寄せられました。一方で、もっと「機械学習」「ディープラーニング」「自然言語処理」「画像処理」などのトピックについて深く議論できるコミュニティー・カンファレンスがあればいいのに、という声も聞かれました。 おりしもビッグデータが大きな話題を呼んでいる昨今、海外の PyData コミュニティーはかなり盛り上がっている様子。日本だって負けてられません！ Python という言語の特徴とデータという流行りのトピック活かして、大企業・ベンチャー・学会で活躍してる Pythonista の皆さんがバランスよく交流することのできるコミュニティーづくりを目指しています。</p>
+    </div>
+  </div>
+
+  <div id="fh5co-blog-section" class="fh5co-light-grey-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+          <h2>Recent from Blog</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 animate-box">
+          <a href="https://medium.com/pydata-osaka/pydata-osaka-meetup-6-%E3%81%AE%E3%81%BE%E3%81%A8%E3%82%81-ee5496a47d1d" class="item-grid">
+            <div class="image" style="background-image: url(/{{ THEME_STATIC_DIR }}/images/image_1.jpg)"></div>
+            <div class="v-align">
+              <div class="v-align-middle">
+                <h3 class="title">PyData Osaka meetup #6 のまとめ</h3>
+                <h5 class="date"><span>June 3, 2017</span></h5>
+                <p>2017年5月20日， 大阪工業大学 UMEDA CAMPUSで PyData Osaka meetup #6 を開催しました．</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-sm-6 animate-box">
+          <a href="https://medium.com/pydata-osaka/pydata-osaka-meetup-5-%E3%81%AE%E3%81%BE%E3%81%A8%E3%82%81-4b60319835d8" class="item-grid">
+            <div class="image" style="background-image: url(/{{ THEME_STATIC_DIR }}/images/image_2.jpg)"></div>
+            <div class="v-align">
+              <div class="v-align-middle">
+                <h3 class="title">PyData Osaka meetup #5 のまとめ</h3>
+                <h5 class="date"><span>May 10, 2017</span></h5>
+                <p>2017年4月23日， 大阪工業大学 UMEDA CAMPUSで PyData Osaka meetup #5 を開催しました．</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-12 text-center animate-box">
+          <p><a href="https://medium.com/pydata-osaka" class="btn btn-primary with-arrow">View More Post <i class="icon-arrow-right"></i></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fh5co-cta" style="background-image: url(/{{ THEME_STATIC_DIR }}/images/slide_2.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="col-md-12 text-center animate-box">
+        <h3>PyData.Osakaのconnpassはこちら</h3>
+        <p><a href="https://pydataosaka.connpass.com/" class="btn btn-primary btn-outline with-arrow">Let's join our connmass pages.<i class="icon-arrow-right"></i></a></p>
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}

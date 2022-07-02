@@ -38,7 +38,7 @@ PyData Osaka の主催者
 
 - <@wrist https://github.com/wrist>_
 - <@taky-y https://github.com/taku-y>_
-- @kozo2](https://github.com/kozo2)
+- <@kozo2 https://github.com/kozo2>_
 
 
 他の日本の PyData へのリンク

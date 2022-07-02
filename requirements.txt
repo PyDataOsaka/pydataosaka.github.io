@@ -1,0 +1,4 @@
+pydata_sphinx_theme
+myst-parser
+sphinxext-rediraffe
+sphinx-sitemap

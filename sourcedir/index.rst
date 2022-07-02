@@ -36,9 +36,9 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 PyData Osaka の主催者
 ---------------------
 
-- [@wrist](https://github.com/wrist)
-- [@taky-y](https://github.com/taku-y)
-- [@kozo2](https://github.com/kozo2)
+- <@wrist https://github.com/wrist>_
+- <@taky-y https://github.com/taku-y>_
+- <@kozo2 https://github.com/kozo2>_
 
 
 他の日本の PyData へのリンク

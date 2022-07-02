@@ -1,39 +1,49 @@
-==============================
+==========================
 PyData Osaka のウェブサイト
-==============================
+==========================
 
-A clean, Bootstrap-based Sphinx theme from the PyData community.
-This theme is designed for more complex documentation that breaks into natural sub-sections.
+PyData Osaka は(主に) Python を用いたデータ分析エコシステムのユーザーと開発者の PyData コミュニティの大阪地区バージョンです！
 
-It puts all top-level pages in your ``toctree`` into the header navigation bar.
-The sidebar will be populated with second-level pages when a top-level page is active.
-This allows you to group your documentation into sub-sections without cluttering the sidebar.
+.. image:: pydataosakalogo.png
 
-.. seealso::
+(PyData Osaka のロゴは PyData Tokyo の [Takahiro Ikeuchi](https://github.com/iktakahiro) さんに作っていただきました。ありがとうございます！)
 
-   If you are looking for a Sphinx theme that puts all of its sub-pages in the sidebar, the `Sphinx Book Theme <https://sphinx-book-theme.readthedocs.io/>`_ has a similar look and feel, and `Furo <https://pradyunsg.me/furo/quickstart/>`_ is another excellent choice.
+次回のミートアップの予定
+----------------------
 
-This site is a guide for using the theme, and a demonstration for how it looks with various
-elements.
+7月 ??日 ??~??時 Zoom で開催します！
 
-Sites that use this theme
-=========================
 
-.. SORTED ALPHABETICALLY
+PyData Osaka でトークしてください！
+---------------------------------
 
-- Binder: https://docs.mybinder.org/
-- Bokeh: https://docs.bokeh.org/en/latest/
-- JupyterLab: https://jupyterlab.readthedocs.io/en/latest/
-- JupyterHub: https://jupyterhub.readthedocs.io/en/latest/
-- Matplotlib: https://matplotlib.org/stable/
-- NetworkX: https://networkx.org/documentation/latest/
-- NumPy: https://numpy.org/doc/stable/
-- Pandas: https://pandas.pydata.org/docs/
-- SciPy: https://scipy.github.io/devdocs/
-- JupyterHub and Binder: https://docs.mybinder.org/, http://z2jh.jupyter.org/en/latest/, https://repo2docker.readthedocs.io/en/latest/, https://jupyterhub-team-compass.readthedocs.io/en/latest/
-- Jupyter Book beta version uses an extension of this theme: https://beta.jupyterbook.org
-- Fairlearn: https://fairlearn.org/main/about/
-- PyVista: https://docs.pyvista.org
+PyData Osaka であなたのデータ分析についてのストーリーを語ってくれますか？
+もしそれに興味があればこの GitHub Issue Form を埋めて送信してください！
+
+
+PyData とは？
+-------------
+
+PyData は、米国の 501(c)3 非営利団体であるNumFOCUSの教育プログラムです。
+PyData は、データ分析ツールのユーザーと開発者の国際コミュニティがアイデアを共有し、お互いから学ぶためのフォーラムを提供しています。
+
+グローバルな PyData ネットワークは、データ管理、処理、分析、および視覚化のためのベストプラクティス、新しいアプローチ、および新しいテクノロジーの議論を促進します。
+PyData コミュニティは、Python、Julia、Rを含む（ただしこれらに限定されない）多くの言語を使用してデータサイエンスに取り組んでいます。
+
+PyData には行動規範があり、それがこのコミュニティの義務を規定しています。
+PyData のミーティングでの行動規範や行動に関する問題や懸念について話し合うには、下記の PyData Osaka の主催者に連絡してください。
+
+PyData Osaka の主催者
+---------------------
+
+- [@wrist](https://github.com/wrist)
+- [@taky-y](https://github.com/taku-y)
+- [@kozo2](https://github.com/kozo2)
+
+
+他の日本の PyData へのリンク
+--------------------------
+
 
 .. meta::
     :description lang=ja:

@@ -42,5 +42,5 @@ body:
       options:
         - label: このトークはデータ分析エコシステム(の何らかの部分)にフォーカスを当てています。
           required: true
-        - label: [PyData の行動規範](https://pydata.org/code-of-conduct/) を確認しました。またそれを守ります。
+        - label: PyData の行動規範 https://pydata.org/code-of-conduct/ を確認しました。またそれを守ります。
           required: true

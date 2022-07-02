@@ -6,7 +6,7 @@ PyData Osaka は(主に) Python を用いたデータ分析エコシステムの
 
 .. image:: pydataosakalogo.png
 
-(PyData Osaka のロゴは PyData Tokyo の [Takahiro Ikeuchi](https://github.com/iktakahiro) さんに作っていただきました。ありがとうございます！)
+(PyData Osaka のロゴは PyData Tokyo の `Takahiro Ikeuchi <https://github.com/iktakahiro>`_ さんに作っていただきました。ありがとうございます！)
 
 次回のミートアップの予定
 ----------------------
@@ -18,7 +18,7 @@ PyData Osaka でトークしてください！
 ---------------------------------
 
 PyData Osaka であなたのデータ分析についてのストーリーを語ってくれますか？
-もしそれに興味があればこの GitHub Issue Form を埋めて送信してください！
+もしそれに興味があれば、`この GitHub Issue Form <https://github.com/PyDataOsaka/pydataosaka.github.io/issues/new/choose>`_ を埋めて送信してください！
 
 
 PyData とは？

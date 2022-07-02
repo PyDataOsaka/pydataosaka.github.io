@@ -4,6 +4,10 @@ PyData Osaka のウェブサイト
 
 PyData Osaka は(主に) Python を用いたデータ分析エコシステムのユーザーと開発者の PyData コミュニティの大阪地区バージョンです！
 
+.. image:: pydataosakalogo.png
+
+(PyData Osaka のロゴは PyData Tokyo の [Takahiro Ikeuchi](https://github.com/iktakahiro) さんに作っていただきました。ありがとうございます！)
+
 次回のミートアップの予定
 ----------------------
 
@@ -35,6 +39,10 @@ PyData Osaka の主催者
 - [@wrist](https://github.com/wrist)
 - [@taky-y](https://github.com/taku-y)
 - [@kozo2](https://github.com/kozo2)
+
+
+他の日本の PyData へのリンク
+--------------------------
 
 
 .. meta::

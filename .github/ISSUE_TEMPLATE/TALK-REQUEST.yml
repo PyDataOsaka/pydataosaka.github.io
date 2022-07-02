@@ -1,0 +1,46 @@
+name: PyData Osaka でのトーク担当リクエスト
+description: PyData Osaka でのトーク担当リクエスト
+title: "ここをあなたのトークタイトルとお名前に置き換えてください！"
+labels: [talk, request]
+assignees:
+  - kozo2
+body:
+  - type: textarea
+    id: talk-abstract
+    attributes:
+      label: あなたのトークの要旨
+      description: あなたのトークの要旨の書いてください。
+      placeholder: あなたのトークの要旨の書いてください！
+      value: "ここにあなたのトークの要旨の書いてください！"
+    validations:
+      required: true
+  - type: textarea
+    id: github-username
+    attributes:
+      label: ghusername
+      description: あなたの GitHub のユーザー名を書いてください。
+      placeholder: あなたの GitHub のユーザー名を書いてください！
+    validations:
+      required: true
+  - type: textarea
+    id: datetime
+    attributes:
+      label: speakerdate
+      description: トークを行っていただくのはいつがご都合がよいですか？ (複数可です！)
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: コメントフィールド
+      description: ご不明な点がございましたら、お気軽にお問い合わせください！
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: 送信する前に、以下を確認してください。
+      options:
+        - label: このトークはデータ分析エコシステム(の何らかの部分)にフォーカスを当てています。
+          required: true
+        - label: [PyData の行動規範](https://pydata.org/code-of-conduct/) を確認しました。またそれを守ります。
+          required: true

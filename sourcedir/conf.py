@@ -39,6 +39,12 @@ extensions = [
     "sphinx.ext.viewcode",
 ]
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
+
 # -- Internationalization ------------------------------------------------
 # specifying the natural language populates some key tags
 language = "ja"
@@ -96,22 +102,8 @@ if not version_match or version_match.isdigit():
         version_match = "v" + release
 
 html_theme_options = {
-    "external_links": [
-        {
-            "url": "https://github.com/pydataosaka/pydataosaka-sphinx/releases",
-            "name": "Changelog",
-        },
-        {"url": "https://pandas.pydata.org/pandas-docs/stable/", "name": "Pandas Docs"},
-    ],
-    "github_url": "https://github.com/pydataosaka/pydataosaka-sphinx",
+    "github_url": "https://github.com/pydataosaka",
     "twitter_url": "https://twitter.com/pydataosaka",
-    "icon_links": [
-        {
-            "name": "PyPI",
-            "url": "https://pypi.org/project/pydata-sphinx-theme",
-            "icon": "fas fa-box",
-        },
-    ],
     "use_edit_page_button": True,
     "show_toc_level": 1,
     # "show_nav_level": 2,
@@ -141,8 +133,8 @@ myst_heading_anchors = 2
 
 html_context = {
     "github_user": "pydataosaka",
-    "github_repo": "pydataosaka-sphinx",
-    "github_version": "master",
+    "github_repo": "pydataosaka.github.io",
+    "github_version": "main",
     "doc_path": "docs",
 }
 

@@ -1,28 +1,21 @@
-==========================
-PyData Osaka のウェブサイト
-==========================
+# PyData Osaka のウェブサイト
 
 PyData Osaka は(主に) Python を用いたデータ分析エコシステムのユーザーと開発者の PyData コミュニティの大阪地区バージョンです！
 
-.. image:: pydataosakalogo.png
+![](pydataosakalogo.png)
 
-(PyData Osaka のロゴは PyData Tokyo の `Takahiro Ikeuchi <https://github.com/iktakahiro>`_ さんに作っていただきました。ありがとうございます！)
+(PyData Osaka のロゴは PyData Tokyo の [Takahiro Ikeuchi](https://github.com/iktakahiro) さんに作っていただきました。ありがとうございます！)
 
-次回のミートアップの予定
-----------------------
+## 次回のミートアップの予定
 
 7月 ??日 ??~??時 Zoom で開催します！
 
 
-PyData Osaka でトークしてください！
----------------------------------
+## PyData Osaka でトークを行うことに興味のある方へ
 
-PyData Osaka であなたのデータ分析についてのストーリーを語ってくれますか？
-もしそれに興味があれば、`この GitHub Issue Form <https://github.com/PyDataOsaka/pydataosaka.github.io/issues/new/choose>`_ を埋めて送信してください！
+気軽に [@kozo2](https://twitter.com/kozo2) にお声がけください。
 
-
-PyData とは？
--------------
+## PyData とは？
 
 PyData は、米国の 501(c)3 非営利団体であるNumFOCUSの教育プログラムです。
 PyData は、データ分析ツールのユーザーと開発者の国際コミュニティがアイデアを共有し、お互いから学ぶためのフォーラムを提供しています。
@@ -33,18 +26,12 @@ PyData コミュニティは、Python、Julia、Rを含む（ただしこれら�
 PyData には行動規範があり、それがこのコミュニティの義務を規定しています。
 PyData のミーティングでの行動規範や行動に関する問題や懸念について話し合うには、下記の PyData Osaka の主催者に連絡してください。
 
-PyData Osaka の主催者
----------------------
+## PyData Osaka の主催者
 
-- <@wrist https://github.com/wrist>_
-- <@taky-y https://github.com/taku-y>_
-- <@kozo2 https://github.com/kozo2>_
+- [@wrist](https://github.com/wrist)
+- [@taky-y](https://github.com/taku-y)
+- [@kozo2](https://github.com/kozo2)
 
+## 他の日本の PyData へのリンク
 
-他の日本の PyData へのリンク
---------------------------
-
-
-.. meta::
-    :description lang=ja:
-        PyData Osaka のウェブサイトと他へのリンク。
+- [PyData.Tokyo](https://pydatatokyo.connpass.com/)

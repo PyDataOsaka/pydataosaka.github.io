@@ -18,7 +18,7 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = "PyData Osaka Sphinx Site"
+project = "PyData Osaka"
 copyright = "2021, PyData Osaka Community"
 author = "PyData Osaka Community"
 

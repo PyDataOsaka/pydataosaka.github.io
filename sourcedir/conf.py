@@ -83,24 +83,6 @@ myst_enable_extensions = [
 html_theme = "pydata_sphinx_theme"
 # html_logo = "_static/pandas.svg"  # For testing
 
-# Define the json_url for our version switcher.
-json_url = "https://pydataosaka-sphinx.readthedocs.io/en/latest/_static/switcher.json"
-
-# Define the version we use for matching in the version switcher.
-version_match = os.environ.get("READTHEDOCS_VERSION")
-# If READTHEDOCS_VERSION doesn't exist, we're not on RTD
-# If it is an integer, we're in a PR build and the version isn't correct.
-if not version_match or version_match.isdigit():
-    # For local development, infer the version to match from the package.
-    release = pydata_sphinx_theme.__version__
-    if "dev" in release:
-        version_match = "latest"
-        # We want to keep the relative reference if we are in dev mode
-        # but we want the whole url if we are effectively in a released version
-        json_url = "/_static/switcher.json"
-    else:
-        version_match = "v" + release
-
 html_theme_options = {
     "github_url": "https://github.com/pydataosaka",
     "twitter_url": "https://twitter.com/pydataosaka",

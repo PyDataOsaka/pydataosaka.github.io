@@ -88,18 +88,6 @@ html_theme_options = {
     "twitter_url": "https://twitter.com/pydataosaka",
     "use_edit_page_button": True,
     "show_toc_level": 1,
-    # "show_nav_level": 2,
-    # "search_bar_position": "navbar",  # TODO: Deprecated - remove in future version
-    # "navbar_align": "left",  # [left, content, right] For testing that the navbar items align properly
-    # "navbar_start": ["navbar-logo", "navbar-version"],
-    # "navbar_center": ["navbar-nav", "navbar-version"],  # Just for testing
-    # "navbar_end": ["theme-switcher", "version-switcher", "navbar-icon-links"],
-    # "left_sidebar_end": ["custom-template.html", "sidebar-ethical-ads.html"],
-    # "footer_items": ["copyright", "sphinx-version", ""]
-#     "switcher": {
-#         "json_url": json_url,
-#         "version_match": version_match,
-#     },
 }
 
 html_sidebars = {
@@ -117,7 +105,7 @@ html_context = {
     "github_user": "pydataosaka",
     "github_repo": "pydataosaka.github.io",
     "github_version": "main",
-    "doc_path": "docs",
+    "doc_path": "sourcedir",
 }
 
 # rediraffe_redirects = {

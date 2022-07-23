@@ -72,6 +72,10 @@ PyData Osaka は両方のイベント管理サイトを更新していきます�
 
 - [Medium を使ったブログ](https://medium.com/pydata-osaka)があります。
 
+### [このウェブサイトへの貢献方法](contributing)
+
+このウェブサイトに対しての変更案等がありましたら上記リンクの手順を行ってください。
+
 ## PyData Osaka の主催者
 
 - [@wrist](https://github.com/wrist)

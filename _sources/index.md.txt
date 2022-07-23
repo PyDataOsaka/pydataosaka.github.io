@@ -6,9 +6,13 @@ PyData Osaka は(主に) Python を用いたデータ分析エコシステムの
 
 (PyData Osaka のロゴは PyData Tokyo の [Takahiro Ikeuchi](https://github.com/iktakahiro) さんに作っていただきました。ありがとうございます！)
 
+## 次回のミートアップの予定
+
+7月 ??日 ??~??時 Zoom で開催します！
+
 ## News (Twitter)
 
-<a class="twitter-timeline" href="https://twitter.com/PyDataOsaka?ref_src=twsrc%5Etfw">Tweets by PyDataOsaka</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height="540" href="https://twitter.com/PyDataOsaka?ref_src=twsrc%5Etfw">Tweets by PyDataOsaka</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## PyData とは？
 
@@ -18,12 +22,14 @@ PyData は、データ分析ツールのユーザーと開発者の国際コミ�
 グローバルな PyData ネットワークは、データ管理、処理、分析、および視覚化のためのベストプラクティス、新しいアプローチ、および新しいテクノロジーの議論を促進します。
 PyData コミュニティは、Python、Julia、Rを含む（ただしこれらに限定されない）多くの言語を使用してデータサイエンスに取り組んでいます。
 
+Osaka 以外にも日本の PyData コミュニティがいくつかあります。
+
+- [PyData Tokyo](https://pydatatokyo.connpass.com/)
+- [PyData Okinawa](https://pydata.okinawa/)
+- [PyData Fukuoka](https://pydatafukuoka.connpass.com/)
+
 PyData には行動規範があり、それがこのコミュニティの義務を規定しています。
 PyData のミーティングでの行動規範や行動に関する問題や懸念について話し合うには、下記の PyData Osaka の主催者に連絡してください。
-
-## 次回のミートアップの予定
-
-7月 ??日 ??~??時 Zoom で開催します！
 
 ## PyData Osaka でトークを行うことに興味のある方へ
 
@@ -52,13 +58,13 @@ PyData-JP の Slack ワークスペースもあります ([招待リンク](http
 
 PyData Osaka は両方のイベント管理サイトを更新していきます。お好みのイベント管理サイトをご利用ください。
 
-## 他の日本の PyData へのリンク
+### PyData Osaka のその他のリンク
 
-Osaka 以外の日本の地区にも PyData コミュニティがあります。
+- [YouTube のチャンネル](https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg)があります。過去のトークの録画がいくつかあります。
 
-- [PyData Tokyo](https://pydatatokyo.connpass.com/)
-- [PyData Okinawa](https://pydata.okinawa/)
-- [PyData Fukuoka](https://pydatafukuoka.connpass.com/)
+<iframe width="1227" height="671" src="https://www.youtube.com/embed/kF5_pblN9iw" title="日本の郵便番号データはなぜ扱うのが難しいのか? (嶋内 翔さん[株式会社オープンコレクター])" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [Medium を使ったブログ](https://medium.com/pydata-osaka)があります。
 
 ## PyData Osaka の主催者
 

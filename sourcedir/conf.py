@@ -86,21 +86,48 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "icon_links": [
         {
-            "name": "GitHub",
-            "url": "https://github.com/pydataosaka/",
-            "icon": "fab fa-github-square",
-            "type": "fontawesome",
-        },
-        {
             "name": "Twitter",
             "url": "https://twitter.com/pydataosaka",
             "icon": "fab fa-twitter-square",
             # The default for `type` is `fontawesome` so it is not actually required in any of the above examples as it is shown here
         },
         {
+            "name": "PyData",
+            "url": "https://pydata.org/",
+            "icon": "https://github.com/pydata/pydata-sphinx-theme/raw/main/docs/_static/pydata-logo.png",
+            "type": "url",
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/pydataosaka/",
+            "icon": "fab fa-github-square",
+            "type": "fontawesome",
+        },
+        {
+            "name": "Contributing",
+            "url": "https://pydataosaka.github.io/contributing",
+            "icon": "fa fa-gavel fa-fw",
+        },
+        {
             "name": "Discord",
             "url": "https://discord.gg/CjspHbE9xe",
             "icon": "fab fa-discord",
+        },
+        {
+            "name": "Slack",
+            "url": "https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ",
+            "icon": "fab fa-slack",
+        },
+        {
+            "name": "Meetup",
+            "url": "https://www.meetup.com/ja-JP/pydata-osaka/",
+            "icon": "fab fa-meetup",
+        },
+        {
+            "name": "Connpass",
+            "url": "https://pydataosaka.connpass.com/",
+            "icon": "https://pbs.twimg.com/profile_images/540067771736813568/tIWMSAZF_400x400.png",
+            "type": "url",
         },
         {
             "name": "YouTube",
@@ -111,17 +138,6 @@ html_theme_options = {
             "name": "Medium",
             "url": "https://medium.com/pydata-osaka",
             "icon": "fab fa-medium",
-        },
-        {
-            "name": "Connpass",
-            "url": "https://pydataosaka.connpass.com/",
-            "icon": "https://pbs.twimg.com/profile_images/540067771736813568/tIWMSAZF_400x400.png",
-            "type": "url",
-        },
-        {
-            "name": "Meetup",
-            "url": "https://www.meetup.com/ja-JP/pydata-osaka/",
-            "icon": "fab fa-meetup",
         },
     ],
     "use_edit_page_button": True,

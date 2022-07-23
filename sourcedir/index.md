@@ -37,16 +37,22 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 
 ## PyData と PyData Osaka のコミュニティ情報リンク
 
-### PyData コミュニティの Discord サーバー
+このページの右上にある各種リンクアイコン(Twitter以外)の説明を下記に行います。
+
+### [PyData Osaka の GitHub organization](https://github.com/PyDataOsaka) と[このウェブサイトへの貢献方法](contributing)へのリンク
+
+PyData Osaka の各種プロジェクトを GitHub で管理しています。
+このウェブサイトのソースコードもその GitHub organization にあります。
+
+### [PyData コミュニティの Discord サーバー](https://discord.gg/CjspHbE9xe)
 
 グローバルな PyData コミュニティが一同に集う場として (Slack ではなく) Discord サーバーがセットアップされています。
-PyData の Discord サーバーへは https://discord.gg/CjspHbE9xe から参加できます。
 その中の多くのチャンネルは英語でコミュニケーションが行われています。
 日本語でのコミュニケーションをご希望の場合は #osaka チャンネルをご利用ください。
 
-### PyData-JP の Slack ワークスペース
+### [PyData-JP の Slack ワークスペース](https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ)
 
-PyData-JP の Slack ワークスペースもあります ([招待リンク](https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ))。
+PyData-JP の Slack ワークスペースもあります。
 グローバルな PyData コミュニティとしては基本的には上記の Discord の利用を推奨していますが、こちらのSlackでコミュニケーションを行っていただいても問題ありません。
 
 ### PyData Osaka のイベント管理サイト
@@ -58,15 +64,21 @@ PyData-JP の Slack ワークスペースもあります ([招待リンク](http
 
 PyData Osaka は両方のイベント管理サイトを更新していきます。お好みのイベント管理サイトをご利用ください。
 
-### PyData Osaka のその他のリンク
+### [PyData Osaka の YouTube チャンネル](https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg)
 
-- [YouTube のチャンネル](https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg)があります。過去のトークの録画がいくつかあります。
+過去のトークの録画がいくつかあります。
 
 <iframe width="613" height="335" src="https://www.youtube.com/embed/kF5_pblN9iw" title="日本の郵便番号データはなぜ扱うのが難しいのか? (嶋内 翔さん[株式会社オープンコレクター])" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [Medium を使ったブログ](https://medium.com/pydata-osaka)があります。
+### [PyData Osaka のブログ](https://medium.com/pydata-osaka)
+
+Medium でブログを書いています。
+これまでのミートアップのいくつかの記録がそこにはあります。
+今後は Jupyter blog (英語) の日本語翻訳等も行っていく予定です。
 
 ## PyData Osaka の主催者
+
+2022年時点の主催者リストは下記です。主催者に加わりたい方は前述リンクまた下記主催者のSNSどれでも構いませんのでお声がけください。
 
 - [@wrist](https://github.com/wrist)
 - [@taky-y](https://github.com/taku-y)

@@ -37,16 +37,22 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 
 ## PyData と PyData Osaka のコミュニティ情報リンク
 
-### PyData コミュニティの Discord サーバー
+このページの右上にある各種リンクアイコン(Twitter以外)の説明を下記に行います。
+
+### [PyData Osaka の GitHub organization](https://github.com/PyDataOsaka) とこのウェブサイトへの貢献方法へのリンク
+
+PyData Osaka の各種プロジェクトを GitHub で管理しています。
+このウェブサイトのソースコードもその GitHub organization にあります。
+
+### [PyData コミュニティの Discord サーバー](https://discord.gg/CjspHbE9xe)
 
 グローバルな PyData コミュニティが一同に集う場として (Slack ではなく) Discord サーバーがセットアップされています。
-PyData の Discord サーバーへは https://discord.gg/CjspHbE9xe から参加できます。
 その中の多くのチャンネルは英語でコミュニケーションが行われています。
 日本語でのコミュニケーションをご希望の場合は #osaka チャンネルをご利用ください。
 
-### PyData-JP の Slack ワークスペース
+### [PyData-JP の Slack ワークスペース](https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ)
 
-PyData-JP の Slack ワークスペースもあります ([招待リンク](https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ))。
+PyData-JP の Slack ワークスペースもあります。
 グローバルな PyData コミュニティとしては基本的には上記の Discord の利用を推奨していますが、こちらのSlackでコミュニケーションを行っていただいても問題ありません。
 
 ### PyData Osaka のイベント管理サイト

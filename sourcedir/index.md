@@ -6,6 +6,10 @@ PyData Osaka は(主に) Python を用いたデータ分析エコシステムの
 
 (PyData Osaka のロゴは PyData Tokyo の [Takahiro Ikeuchi](https://github.com/iktakahiro) さんに作っていただきました。ありがとうございます！)
 
+## News (Twitter)
+
+<a class="twitter-timeline" href="https://twitter.com/PyDataOsaka?ref_src=twsrc%5Etfw">Tweets by PyDataOsaka</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## PyData とは？
 
 PyData は、米国の 501(c)3 非営利団体であるNumFOCUSの教育プログラムです。
@@ -54,6 +58,7 @@ Osaka 以外の日本の地区にも PyData コミュニティがあります。
 
 - [PyData Tokyo](https://pydatatokyo.connpass.com/)
 - [PyData Okinawa](https://pydata.okinawa/)
+- [PyData Fukuoka](https://pydatafukuoka.connpass.com/)
 
 ## PyData Osaka の主催者
 

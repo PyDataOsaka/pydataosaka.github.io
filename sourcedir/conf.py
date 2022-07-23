@@ -102,6 +102,21 @@ html_theme_options = {
             "url": "https://discord.gg/CjspHbE9xe",
             "icon": "fab fa-discord",
         },
+        {
+            "name": "YouTube",
+            "url": "https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg",
+            "icon": "fab fa-youtube",
+        },
+        {
+            "name": "Medium",
+            "url": "https://medium.com/pydata-osaka",
+            "icon": "fab fa-medium",
+        },
+        {
+            "name": "Meetup",
+            "url": "https://www.meetup.com/ja-JP/pydata-osaka/",
+            "icon": "fab fa-meetup",
+        },
     ],
     "use_edit_page_button": True,
     "show_toc_level": 1,

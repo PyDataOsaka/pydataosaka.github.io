@@ -62,7 +62,7 @@ PyData Osaka は両方のイベント管理サイトを更新していきます�
 
 - [YouTube のチャンネル](https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg)があります。過去のトークの録画がいくつかあります。
 
-<iframe width="1227" height="671" src="https://www.youtube.com/embed/kF5_pblN9iw" title="日本の郵便番号データはなぜ扱うのが難しいのか? (嶋内 翔さん[株式会社オープンコレクター])" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="613" height="335" src="https://www.youtube.com/embed/kF5_pblN9iw" title="日本の郵便番号データはなぜ扱うのが難しいのか? (嶋内 翔さん[株式会社オープンコレクター])" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [Medium を使ったブログ](https://medium.com/pydata-osaka)があります。
 

@@ -84,8 +84,25 @@ html_theme = "pydata_sphinx_theme"
 # html_logo = "_static/pandas.svg"  # For testing
 
 html_theme_options = {
-    "github_url": "https://github.com/pydataosaka",
-    "twitter_url": "https://twitter.com/pydataosaka",
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/pydataosaka/",
+            "icon": "fab fa-github-square",
+            "type": "fontawesome",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/pydataosaka",
+            "icon": "fab fa-twitter-square",
+            # The default for `type` is `fontawesome` so it is not actually required in any of the above examples as it is shown here
+        },
+        {
+            "name": "Discord",
+            "url": "https://discord.gg/CjspHbE9xe",
+            "icon": "fab fa-discord",
+        },
+    ],
     "use_edit_page_button": True,
     "show_toc_level": 1,
 }

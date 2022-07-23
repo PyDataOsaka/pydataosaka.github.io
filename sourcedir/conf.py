@@ -113,6 +113,12 @@ html_theme_options = {
             "icon": "fab fa-medium",
         },
         {
+            "name": "Connpass",
+            "url": "https://pydataosaka.connpass.com/",
+            "icon": "https://pbs.twimg.com/profile_images/540067771736813568/tIWMSAZF_400x400.png",
+            "type": "url",
+        },
+        {
             "name": "Meetup",
             "url": "https://www.meetup.com/ja-JP/pydata-osaka/",
             "icon": "fab fa-meetup",

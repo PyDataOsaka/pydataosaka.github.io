@@ -39,7 +39,7 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 
 このページの右上にある各種リンクアイコン(Twitter以外)の説明を下記に行います。
 
-### [PyData Osaka の GitHub organization](https://github.com/PyDataOsaka) とこのウェブサイトへの貢献方法へのリンク
+### [PyData Osaka の GitHub organization](https://github.com/PyDataOsaka) と[このウェブサイトへの貢献方法](contributing)へのリンク
 
 PyData Osaka の各種プロジェクトを GitHub で管理しています。
 このウェブサイトのソースコードもその GitHub organization にあります。
@@ -71,10 +71,6 @@ PyData Osaka は両方のイベント管理サイトを更新していきます�
 <iframe width="613" height="335" src="https://www.youtube.com/embed/kF5_pblN9iw" title="日本の郵便番号データはなぜ扱うのが難しいのか? (嶋内 翔さん[株式会社オープンコレクター])" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [Medium を使ったブログ](https://medium.com/pydata-osaka)があります。
-
-### [このウェブサイトへの貢献方法](contributing)
-
-このウェブサイトに対しての変更案等がありましたら上記リンクの手順を行ってください。
 
 ## PyData Osaka の主催者
 

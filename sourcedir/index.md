@@ -64,15 +64,21 @@ PyData-JP の Slack ワークスペースもあります。
 
 PyData Osaka は両方のイベント管理サイトを更新していきます。お好みのイベント管理サイトをご利用ください。
 
-### PyData Osaka のその他のリンク
+### [PyData Osaka の YouTube チャンネル](https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg)
 
-- [YouTube のチャンネル](https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg)があります。過去のトークの録画がいくつかあります。
+過去のトークの録画がいくつかあります。
 
 <iframe width="613" height="335" src="https://www.youtube.com/embed/kF5_pblN9iw" title="日本の郵便番号データはなぜ扱うのが難しいのか? (嶋内 翔さん[株式会社オープンコレクター])" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [Medium を使ったブログ](https://medium.com/pydata-osaka)があります。
+### [PyData Osaka のブログ](https://medium.com/pydata-osaka)
+
+Medium でブログを書いています。
+これまでのミートアップのいくつかの記録がそこにはあります。
+今後は Jupyter blog (英語) の日本語翻訳等も行っていく予定です。
 
 ## PyData Osaka の主催者
+
+2022年時点の主催者リストは下記です。主催者に加わりたい方は前述リンクまた下記主催者のSNSどれでも構いませんのでお声がけください。
 
 - [@wrist](https://github.com/wrist)
 - [@taky-y](https://github.com/taku-y)

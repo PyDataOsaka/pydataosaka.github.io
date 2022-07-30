@@ -3,27 +3,15 @@
 このウェブサイトの更新リクエストはどなたでも行っていただけます！
 更新リクエストは気軽に行ってください。
 ただし、[GitHub](https://github.com) のアカウントが必要です。
-GitHub アカウントをお持ちでない方はご作成をお願いします。
+GitHub アカウントをお持ちでない方は、その作成と GitHub へのログインをお願いします。
 
 ### 更新リクエストを行うだけの場合
 
-1. https://github.com/PyDataOsaka/pydataosaka.github.io/tree/main/sourcedir 以下の md ファイルをクリックしてください。
-2. 下記画像の赤丸箇所の鉛筆のようなアイコンのボタンをクリックしてください。 ![](edit_button.png)
-3. ファイル内容の更新してください。
-4. 下記画像の緑色のボタンをクリックしてください。 ![](propose_changes.png)
+1. このウェブサイトの各ページの右側にある「Edit this page」のリンクをクリックしてください。 ![](edit_this_page_link.png)
+2. ウェブサイトのソースコードのエディットを行うためのページ(GitHub内)へと遷移します。そのソースコードの内容を更新してください。
+3. 下記画像の緑色のボタンをクリックしてください。 ![](propose_changes.png)
+4. 3.で送られたリクエストは PyData Osaka オーガナイザーの元に届きます。そのリクエストがアクセプトされると [GitHub Actions](https://github.com/PyDataOsaka/pydataosaka.github.io/blob/main/.github/workflows/sphinx.yml) で自動的にこのウェブサイトの内容が更新されます。
 
 ### 更新リクエストがどのようにレンダリングされるかまで確認したい場合
 
-1. 「更新リクエストを行うだけの場合」の操作を行ってください。
-2. 1. を行うとみなさんの GitHub アカウント下に pydataosaka.github.io という名前のリポジトリの Fork が作られています。そのリポジトリをクローンしてください。ここ以降の Git が関わる操作は [GitHub Desktop](https://desktop.github.com/) を用いて行うことをおすすめします。
-3. `patch` というワードが含まれる Git のブランチにスイッチします。
-4. ターミナルアプリを起動後、クローンしたリポジトリに `cd` してください。
-5. Python と pip をお使いの計算機環境にインストールします。
-6. 下記のコマンドを実行してください。 `builddir` 下にウェブサイトがビルドされます。 `builddir` 下の index.html をクリックするとビルドされたウェブサイトの確認ができます。
-  ```
-  git checkout -t origin/
-  pip install -r requirements.txt
-  pip install -U Sphinx
-  mkdir builddir
-  sphinx-build -b html sourcedir builddir
-  ```
+[このウェブサイトの GitHub リポジトリに設定されている GitHub Actions の yml ファイル](https://github.com/PyDataOsaka/pydataosaka.github.io/blob/main/.github/workflows/sphinx.yml) をご参照ください。

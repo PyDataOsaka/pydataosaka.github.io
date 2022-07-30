@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>このウェブサイトへの貢献方法 &#8212; PyData Osaka  ドキュメント</title>
+    <title>このウェブサイトに改善に貢献する方法 &#8212; PyData Osaka  ドキュメント</title>
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
   document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"
@@ -175,9 +175,24 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   更新リクエストを行うだけの場合
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   更新リクエストがどのようにレンダリングされるかまで確認したい場合
+  </a>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -203,25 +218,41 @@
               <article class="bd-article" role="main">
                 
   <section id="id1">
-<h1>このウェブサイトへの貢献方法<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
+<h1>このウェブサイトに改善に貢献する方法<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">#</a></h1>
+<p>このウェブサイトの更新リクエストはどなたでも行っていただけます！
+更新リクエストは気軽に行ってください。
+ただし、<a class="reference external" href="https://github.com">GitHub</a> のアカウントが必要です。
+GitHub アカウントをお持ちでない方はご作成をお願いします。</p>
+<section id="id2">
+<h2>更新リクエストを行うだけの場合<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">#</a></h2>
 <ol class="arabic simple">
-<li><p>Python と pip をインストールしてください。</p></li>
-<li><p>このリポジトリを Fork してください。</p></li>
-<li><p>リポジトリ内の <code class="docutils literal notranslate"><span class="pre">sourcedir</span></code> フォルダ下の md ファイルを更新する、もしくはリポジトリ内の <code class="docutils literal notranslate"><span class="pre">sourcedir</span></code> フォルダ下に md ファイルを追加してください。</p></li>
-<li><p>ターミナルアプリを起動後、このリポジトリに <code class="docutils literal notranslate"><span class="pre">cd</span></code> してください。</p></li>
+<li><p>https://github.com/PyDataOsaka/pydataosaka.github.io/tree/main/sourcedir 以下の md ファイルをクリックしてください。</p></li>
+<li><p>下記画像の赤丸箇所の鉛筆のようなアイコンのボタンをクリックしてください。 <img alt="" src="_images/edit_button.png" /></p></li>
+<li><p>ファイル内容の更新してください。</p></li>
+<li><p>下記画像の緑色のボタンをクリックしてください。 <img alt="" src="_images/propose_changes.png" /></p></li>
+</ol>
+</section>
+<section id="id3">
+<h2>更新リクエストがどのようにレンダリングされるかまで確認したい場合<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">#</a></h2>
+<ol class="arabic simple">
+<li><p>「更新リクエストを行うだけの場合」の操作を行ってください。</p></li>
+<li><ol class="arabic simple">
+<li><p>を行うとみなさんの GitHub アカウント下に pydataosaka.github.io という名前のリポジトリの Fork が作られています。そのリポジトリをクローンしてください。ここ以降の Git が関わる操作は <a class="reference external" href="https://desktop.github.com/">GitHub Desktop</a> を用いて行うことをおすすめします。</p></li>
+</ol>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">patch</span></code> というワードが含まれる Git のブランチにスイッチします。</p></li>
+<li><p>ターミナルアプリを起動後、クローンしたリポジトリに <code class="docutils literal notranslate"><span class="pre">cd</span></code> してください。</p></li>
+<li><p>Python と pip をお使いの計算機環境にインストールします。</p></li>
 <li><p>下記のコマンドを実行してください。 <code class="docutils literal notranslate"><span class="pre">builddir</span></code> 下にウェブサイトがビルドされます。 <code class="docutils literal notranslate"><span class="pre">builddir</span></code> 下の index.html をクリックするとビルドされたウェブサイトの確認ができます。</p></li>
 </ol>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">t</span> <span class="n">origin</span><span class="o">/</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
 <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">Sphinx</span>
 <span class="n">mkdir</span> <span class="n">builddir</span>
 <span class="n">sphinx</span><span class="o">-</span><span class="n">build</span> <span class="o">-</span><span class="n">b</span> <span class="n">html</span> <span class="n">sourcedir</span> <span class="n">builddir</span>
 </pre></div>
 </div>
-<ol class="arabic simple" start="6">
-<li><p>3 の md ファイルを git でコミットしてください。</p></li>
-<li><p>6 のコミットを 2. にプッシュしてください。</p></li>
-<li><p>7 のプッシュ内容を、このリポジトリに対してプルリクエストしてください。</p></li>
-</ol>
+</section>
 </section>
 
 
@@ -255,7 +286,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.1.<br>
 </p>
   </div>
   

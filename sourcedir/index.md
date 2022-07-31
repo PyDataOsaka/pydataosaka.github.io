@@ -87,3 +87,7 @@ Medium でブログを書いています。
 - [@wrist](https://github.com/wrist)
 - [@taky-y](https://github.com/taku-y)
 - [@kozo2](https://github.com/kozo2)
+
+## このウェブサイトを改善するには
+
+[このウェブサイトを改善する方法](https://pydataosaka.github.io/contributing) を御覧ください。

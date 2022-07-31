@@ -92,7 +92,7 @@ html_theme_options = {
             # The default for `type` is `fontawesome` so it is not actually required in any of the above examples as it is shown here
         },
         {
-            "name": "PyData",
+            "name": "世界のPyData",
             "url": "https://pydata.org/",
             "icon": "https://github.com/pydata/pydata-sphinx-theme/raw/main/docs/_static/pydata-logo.png",
             "type": "url",
@@ -102,11 +102,6 @@ html_theme_options = {
             "url": "https://github.com/pydataosaka/",
             "icon": "fab fa-github-square",
             "type": "fontawesome",
-        },
-        {
-            "name": "Contributing",
-            "url": "https://pydataosaka.github.io/contributing",
-            "icon": "fa fa-gavel fa-fw",
         },
         {
             "name": "Discord",
@@ -138,6 +133,11 @@ html_theme_options = {
             "name": "Medium",
             "url": "https://medium.com/pydata-osaka",
             "icon": "fab fa-medium",
+        },
+        {
+            "name": "このウェブサイトを改善する",
+            "url": "https://pydataosaka.github.io/contributing",
+            "icon": "fa fa-gavel fa-fw",
         },
     ],
     "use_edit_page_button": True,

@@ -88,6 +88,6 @@ Medium でブログを書いています。
 - [@taky-y](https://github.com/taku-y)
 - [@kozo2](https://github.com/kozo2)
 
-## このウェブサイトに貢献するには
+## このウェブサイトを改善するには
 
-[このウェブサイトに改善に貢献する方法](https://pydataosaka.github.io/contributing) を御覧ください。
+[このウェブサイトを改善する方法](https://pydataosaka.github.io/contributing) を御覧ください。

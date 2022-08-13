@@ -6,7 +6,11 @@ PyData Osaka は(主に) Python を用いたデータ分析エコシステムの
 
 (PyData Osaka のロゴは PyData Tokyo の [Takahiro Ikeuchi](https://github.com/iktakahiro) さんに作っていただきました。ありがとうございます！)
 
-## News (Twitter)
+## 次回ミートアップ
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">PyData Osaka のミートアップを今月27日(土曜日)に開催します。<br>今回のミートアップでは機械学習モデルのハイパーパラメータ探索を実演します。<br>ぜひご参加ください。<a href="https://t.co/Od4E5dfFvW">https://t.co/Od4E5dfFvW</a></p>&mdash; PyData.Osaka (@PyDataOsaka) <a href="https://twitter.com/PyDataOsaka/status/1558306100662849536?ref_src=twsrc%5Etfw">August 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## News (PyData Osaka の最近のツイート)
 
 <a class="twitter-timeline" data-height="540" href="https://twitter.com/PyDataOsaka?ref_src=twsrc%5Etfw">Tweets by PyDataOsaka</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

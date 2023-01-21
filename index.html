@@ -7,28 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <title>PyData Osaka のウェブサイト &#8212; PyData Osaka  ドキュメント</title>
-  <script>
+  
+  
+  
+  <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
+  <link href="_static/styles/theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="_static/styles/bootstrap.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
 
   
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/6.1.2/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2">
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b">
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94">
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -49,6 +52,10 @@
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
 
   
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  
   <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
   <label class="overlay overlay-primary" for="__primary"></label>
 
@@ -62,7 +69,7 @@
     <div class="search-button__search-container">
       
 <form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
+  <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form>
@@ -72,7 +79,7 @@
   
   <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
   <label class="sidebar-toggle primary-toggle" for="__primary">
-      <span class="fas fa-bars"></span>
+      <span class="fa-solid fa-bars"></span>
   </label>
   <div id="navbar-start">
     
@@ -116,19 +123,21 @@
     </div>
 
     <div id="navbar-end">
-      <div class="navbar-end-item navbar-end__search-button-container">
-        
-<button class="btn btn-sm navbar-btn search-button search-button__button" title="検索">
-  <i class="fas fa-search"></i>
+      
+        <div class="navbar-end-item navbar-persistent--container">
+          
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="検索" aria-label="検索" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
 </button>
-      </div>
+        </div>
+      
       
       <div class="navbar-end-item">
-        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
-    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
-    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
-    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
-</span>
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
       </div>
       
       <div class="navbar-end-item">
@@ -140,7 +149,8 @@
           
           
           
-          <a href="https://twitter.com/pydataosaka" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter-square"></i></span>
+          
+          <a href="https://twitter.com/pydataosaka" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-twitter-square"></i></span>
             <label class="sr-only">Twitter</label></a>
         </li>
         <li class="nav-item">
@@ -150,7 +160,8 @@
           
           
           
-          <a href="https://pydata.org/" title="世界のPyData" class="nav-link" rel="noopener" target="_blank"><img src="https://github.com/pydata/pydata-sphinx-theme/raw/main/docs/_static/pydata-logo.png" class="icon-link-image" alt="世界のPyData"/></a>
+          
+          <a href="https://pydata.org/" title="世界のPyData" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><img src="https://github.com/pydata/pydata-sphinx-theme/raw/main/docs/_static/pydata-logo.png" class="icon-link-image" alt="世界のPyData"/></a>
         </li>
         <li class="nav-item">
           
@@ -159,7 +170,8 @@
           
           
           
-          <a href="https://github.com/pydataosaka/" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+          
+          <a href="https://github.com/pydataosaka/" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-github-square"></i></span>
             <label class="sr-only">GitHub</label></a>
         </li>
         <li class="nav-item">
@@ -169,7 +181,8 @@
           
           
           
-          <a href="https://discord.gg/CjspHbE9xe" title="Discord" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-discord"></i></span>
+          
+          <a href="https://discord.gg/CjspHbE9xe" title="Discord" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-discord"></i></span>
             <label class="sr-only">Discord</label></a>
         </li>
         <li class="nav-item">
@@ -179,7 +192,8 @@
           
           
           
-          <a href="https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ" title="Slack" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-slack"></i></span>
+          
+          <a href="https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ" title="Slack" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-slack"></i></span>
             <label class="sr-only">Slack</label></a>
         </li>
         <li class="nav-item">
@@ -189,7 +203,8 @@
           
           
           
-          <a href="https://www.meetup.com/ja-JP/pydata-osaka/" title="Meetup" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-meetup"></i></span>
+          
+          <a href="https://www.meetup.com/ja-JP/pydata-osaka/" title="Meetup" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-meetup"></i></span>
             <label class="sr-only">Meetup</label></a>
         </li>
         <li class="nav-item">
@@ -199,7 +214,8 @@
           
           
           
-          <a href="https://pydataosaka.connpass.com/" title="Connpass" class="nav-link" rel="noopener" target="_blank"><img src="https://pbs.twimg.com/profile_images/540067771736813568/tIWMSAZF_400x400.png" class="icon-link-image" alt="Connpass"/></a>
+          
+          <a href="https://pydataosaka.connpass.com/" title="Connpass" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><img src="https://pbs.twimg.com/profile_images/540067771736813568/tIWMSAZF_400x400.png" class="icon-link-image" alt="Connpass"/></a>
         </li>
         <li class="nav-item">
           
@@ -208,7 +224,8 @@
           
           
           
-          <a href="https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg" title="YouTube" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-youtube"></i></span>
+          
+          <a href="https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg" title="YouTube" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-youtube"></i></span>
             <label class="sr-only">YouTube</label></a>
         </li>
         <li class="nav-item">
@@ -218,7 +235,8 @@
           
           
           
-          <a href="https://medium.com/pydata-osaka" title="Medium" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-medium"></i></span>
+          
+          <a href="https://medium.com/pydata-osaka" title="Medium" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-medium"></i></span>
             <label class="sr-only">Medium</label></a>
         </li>
         <li class="nav-item">
@@ -228,7 +246,8 @@
           
           
           
-          <a href="https://pydataosaka.github.io/contributing" title="このウェブサイトを改善する" class="nav-link" rel="noopener" target="_blank"><span><i class="fa fa-gavel fa-fw"></i></span>
+          
+          <a href="https://pydataosaka.github.io/contributing" title="このウェブサイトを改善する" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fa fa-gavel fa-fw"></i></span>
             <label class="sr-only">このウェブサイトを改善する</label></a>
         </li>
       </ul>
@@ -239,15 +258,17 @@
 
 
   
-  <div class="search-button-container--mobile">
-<button class="btn btn-sm navbar-btn search-button search-button__button" title="検索">
-  <i class="fas fa-search"></i>
+  
+    <div class="navbar-persistent--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="検索" aria-label="検索" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
 </button>
-  </div>
+    </div>
+  
 
   
   <label class="sidebar-toggle secondary-toggle" for="__secondary">
-      <span class="fas fa-outdent"></span>
+      <span class="fa-solid fa-outdent"></span>
   </label>
   
 
@@ -285,11 +306,11 @@
     <div class="sidebar-header-items__end">
       
       <div class="navbar-end-item">
-        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
-    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
-    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
-    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
-</span>
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
       </div>
       
       <div class="navbar-end-item">
@@ -301,7 +322,8 @@
           
           
           
-          <a href="https://twitter.com/pydataosaka" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter-square"></i></span>
+          
+          <a href="https://twitter.com/pydataosaka" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-twitter-square"></i></span>
             <label class="sr-only">Twitter</label></a>
         </li>
         <li class="nav-item">
@@ -311,7 +333,8 @@
           
           
           
-          <a href="https://pydata.org/" title="世界のPyData" class="nav-link" rel="noopener" target="_blank"><img src="https://github.com/pydata/pydata-sphinx-theme/raw/main/docs/_static/pydata-logo.png" class="icon-link-image" alt="世界のPyData"/></a>
+          
+          <a href="https://pydata.org/" title="世界のPyData" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><img src="https://github.com/pydata/pydata-sphinx-theme/raw/main/docs/_static/pydata-logo.png" class="icon-link-image" alt="世界のPyData"/></a>
         </li>
         <li class="nav-item">
           
@@ -320,7 +343,8 @@
           
           
           
-          <a href="https://github.com/pydataosaka/" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+          
+          <a href="https://github.com/pydataosaka/" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-github-square"></i></span>
             <label class="sr-only">GitHub</label></a>
         </li>
         <li class="nav-item">
@@ -330,7 +354,8 @@
           
           
           
-          <a href="https://discord.gg/CjspHbE9xe" title="Discord" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-discord"></i></span>
+          
+          <a href="https://discord.gg/CjspHbE9xe" title="Discord" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-discord"></i></span>
             <label class="sr-only">Discord</label></a>
         </li>
         <li class="nav-item">
@@ -340,7 +365,8 @@
           
           
           
-          <a href="https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ" title="Slack" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-slack"></i></span>
+          
+          <a href="https://join.slack.com/t/pydata-jp/shared_invite/zt-1cihxbxxy-5ge4eQYq4B_hx_p3dvhEmQ" title="Slack" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-slack"></i></span>
             <label class="sr-only">Slack</label></a>
         </li>
         <li class="nav-item">
@@ -350,7 +376,8 @@
           
           
           
-          <a href="https://www.meetup.com/ja-JP/pydata-osaka/" title="Meetup" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-meetup"></i></span>
+          
+          <a href="https://www.meetup.com/ja-JP/pydata-osaka/" title="Meetup" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-meetup"></i></span>
             <label class="sr-only">Meetup</label></a>
         </li>
         <li class="nav-item">
@@ -360,7 +387,8 @@
           
           
           
-          <a href="https://pydataosaka.connpass.com/" title="Connpass" class="nav-link" rel="noopener" target="_blank"><img src="https://pbs.twimg.com/profile_images/540067771736813568/tIWMSAZF_400x400.png" class="icon-link-image" alt="Connpass"/></a>
+          
+          <a href="https://pydataosaka.connpass.com/" title="Connpass" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><img src="https://pbs.twimg.com/profile_images/540067771736813568/tIWMSAZF_400x400.png" class="icon-link-image" alt="Connpass"/></a>
         </li>
         <li class="nav-item">
           
@@ -369,7 +397,8 @@
           
           
           
-          <a href="https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg" title="YouTube" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-youtube"></i></span>
+          
+          <a href="https://www.youtube.com/channel/UCXHrkobjEf1yLkmblB6CHyg" title="YouTube" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-youtube"></i></span>
             <label class="sr-only">YouTube</label></a>
         </li>
         <li class="nav-item">
@@ -379,7 +408,8 @@
           
           
           
-          <a href="https://medium.com/pydata-osaka" title="Medium" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-medium"></i></span>
+          
+          <a href="https://medium.com/pydata-osaka" title="Medium" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-medium"></i></span>
             <label class="sr-only">Medium</label></a>
         </li>
         <li class="nav-item">
@@ -389,7 +419,8 @@
           
           
           
-          <a href="https://pydataosaka.github.io/contributing" title="このウェブサイトを改善する" class="nav-link" rel="noopener" target="_blank"><span><i class="fa fa-gavel fa-fw"></i></span>
+          
+          <a href="https://pydataosaka.github.io/contributing" title="このウェブサイトを改善する" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fa fa-gavel fa-fw"></i></span>
             <label class="sr-only">このウェブサイトを改善する</label></a>
         </li>
       </ul>
@@ -407,8 +438,11 @@
     </div>
   </div>
 
+  
+  <div id="rtd-footer-container"></div>
+
       </div>
-      <main class="bd-main">
+      <main id="main-content" class="bd-main">
         
         
         <div class="bd-content">
@@ -427,7 +461,11 @@
 <p><img alt="" src="_images/pydataosakalogo.png" /></p>
 <p>(PyData Osaka のロゴは PyData Tokyo の <a class="reference external" href="https://github.com/iktakahiro">Takahiro Ikeuchi</a> さんに作っていただきました。ありがとうございます！)</p>
 <section id="id1">
-<h2>次回ミートアップ<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">#</a></h2>
+<h2>PyData Osaka イベントカレンダー<a class="headerlink" href="#id1" title="この見出しへのパーマリンク">#</a></h2>
+<iframe src="https://calendar.google.com/calendar/embed?src=irespc38tjfbqpg359ukfpjpm8%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</section>
+<section id="id2">
+<h2>次回ミートアップ<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">#</a></h2>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">PyData Osaka のミートアップを今月22日(土曜日)に開催します。<br>今回のミートアップではJupyterに関する話題(コミュニティ, JupyterLite)の共有を、私達が行ったJupyter blog の日本語翻訳記事を紹介しつつ行います。<br>ぜひご参加ください。<a href="https://t.co/ihHvZYu6td">https://t.co/ihHvZYu6td</a></p>&mdash; PyData.Osaka (@PyDataOsaka) <a href="https://twitter.com/PyDataOsaka/status/1576623879279108096?ref_src=twsrc%5Etfw">October 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </section>
 <section id="news-pydata-osaka">
@@ -451,8 +489,8 @@ PyData コミュニティは、Python、Julia、Rを含む（ただしこれら�
 <p>PyData には行動規範があり、それがこのコミュニティの義務を規定しています。
 PyData のミーティングでの行動規範や行動に関する問題や懸念について話し合うには、下記の PyData Osaka の主催者に連絡してください。</p>
 </section>
-<section id="id2">
-<h2>PyData Osaka でトークを行うことに興味のある方へ<a class="headerlink" href="#id2" title="この見出しへのパーマリンク">#</a></h2>
+<section id="id3">
+<h2>PyData Osaka でトークを行うことに興味のある方へ<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">#</a></h2>
 <p>気軽に <a class="reference external" href="https://twitter.com/kozo2">&#64;kozo2</a> にお声がけください。</p>
 </section>
 <section id="pydata-pydata-osaka">
@@ -474,8 +512,8 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 <p>PyData-JP の Slack ワークスペースもあります。
 グローバルな PyData コミュニティとしては基本的には上記の Discord の利用を推奨していますが、こちらのSlackでコミュニケーションを行っていただいても問題ありません。</p>
 </section>
-<section id="id3">
-<h3>PyData Osaka のイベント管理サイト<a class="headerlink" href="#id3" title="この見出しへのパーマリンク">#</a></h3>
+<section id="id4">
+<h3>PyData Osaka のイベント管理サイト<a class="headerlink" href="#id4" title="この見出しへのパーマリンク">#</a></h3>
 <p>イベント管理サイトも前記の Discord/Slack のように「グローバルな PyData コミュニティとして利用を推奨するもの」と「日本ローカルのもの」の2つがあります。</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.meetup.com/ja-JP/pydata-osaka/">PyData Osaka の meetup.com</a></p></li>
@@ -488,15 +526,15 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 <p>過去のトークの録画がいくつかあります。</p>
 <iframe width="613" height="335" src="https://www.youtube.com/embed/kF5_pblN9iw" title="日本の郵便番号データはなぜ扱うのが難しいのか? (嶋内 翔さん[株式会社オープンコレクター])" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
-<section id="id4">
-<h3><a class="reference external" href="https://medium.com/pydata-osaka">PyData Osaka のブログ</a><a class="headerlink" href="#id4" title="この見出しへのパーマリンク">#</a></h3>
+<section id="id5">
+<h3><a class="reference external" href="https://medium.com/pydata-osaka">PyData Osaka のブログ</a><a class="headerlink" href="#id5" title="この見出しへのパーマリンク">#</a></h3>
 <p>Medium でブログを書いています。
 これまでのミートアップのいくつかの記録がそこにはあります。
 今後は Jupyter blog (英語) の日本語翻訳等も行っていく予定です。</p>
 </section>
 </section>
-<section id="id5">
-<h2>PyData Osaka の主催者<a class="headerlink" href="#id5" title="この見出しへのパーマリンク">#</a></h2>
+<section id="id6">
+<h2>PyData Osaka の主催者<a class="headerlink" href="#id6" title="この見出しへのパーマリンク">#</a></h2>
 <p>2022年時点の主催者リストは下記です。主催者に加わりたい方は前述リンクまた下記主催者のSNSどれでも構いませんのでお声がけください。</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/wrist">&#64;wrist</a></p></li>
@@ -504,8 +542,8 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 <li><p><a class="reference external" href="https://github.com/kozo2">&#64;kozo2</a></p></li>
 </ul>
 </section>
-<section id="id6">
-<h2>このウェブサイトを改善するには<a class="headerlink" href="#id6" title="この見出しへのパーマリンク">#</a></h2>
+<section id="id7">
+<h2>このウェブサイトを改善するには<a class="headerlink" href="#id7" title="この見出しへのパーマリンク">#</a></h2>
 <p><a class="reference external" href="https://pydataosaka.github.io/contributing">このウェブサイトを改善する方法</a> を御覧ください。</p>
 </section>
 </section>
@@ -530,12 +568,17 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 <div class="toc-item">
   
 <div class="tocsection onthispage">
-    <i class="fas fa-list"></i> On this page
+    <i class="fa-solid fa-list"></i> On this page
 </div>
 <nav id="bd-toc-nav" class="page-toc">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id1">
+   PyData Osaka イベントカレンダー
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
    次回ミートアップ
   </a>
  </li>
@@ -550,7 +593,7 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id2">
+  <a class="reference internal nav-link" href="#id3">
    PyData Osaka でトークを行うことに興味のある方へ
   </a>
  </li>
@@ -579,7 +622,7 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
+    <a class="reference internal nav-link" href="#id4">
      PyData Osaka のイベント管理サイト
     </a>
    </li>
@@ -589,19 +632,19 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id4">
+    <a class="reference internal nav-link" href="#id5">
      PyData Osaka のブログ
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id5">
+  <a class="reference internal nav-link" href="#id6">
    PyData Osaka の主催者
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id6">
+  <a class="reference internal nav-link" href="#id7">
    このウェブサイトを改善するには
   </a>
  </li>
@@ -612,10 +655,15 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
 
 <div class="toc-item">
   
+<div id="searchbox"></div>
+</div>
+
+<div class="toc-item">
+  
 
 <div class="tocsection editthispage">
     <a href="https://github.com/pydataosaka/pydataosaka.github.io/edit/main/sourcedir/index.md">
-        <i class="fas fa-pencil-alt"></i> Edit this page
+        <i class="fa-solid fa-pencil"></i> Edit this page
     </a>
 </div>
 
@@ -625,7 +673,7 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
   
 <div class="tocsection sourcelink">
     <a href="_sources/index.md.txt">
-        <i class="fas fa-file-alt"></i> ソースコードを表示
+        <i class="fa-solid fa-file-lines"></i> ソースコードを表示
     </a>
 </div>
 
@@ -648,7 +696,8 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
   
     
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b"></script>
+  <script src="_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94"></script>
 
   <footer class="bd-footer"><div class="bd-footer__inner container">
   
@@ -663,9 +712,19 @@ PyData のミーティングでの行動規範や行動に関する問題や懸�
   </div>
   
   <div class="footer-item">
+    <p class="theme-version">
+    Built with the
+    <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">
+        PyData Sphinx Theme
+    </a>
+    0.12.0.
+</p>
+  </div>
+  
+  <div class="footer-item">
     
 <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.3.0.<br>
 </p>
 
   </div>

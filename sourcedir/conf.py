@@ -19,7 +19,7 @@ import os
 # -- Project information -----------------------------------------------------
 
 project = "PyData Osaka"
-copyright = "2021, PyData Osaka Community"
+copyright = "2023, PyData Osaka Community"
 author = "PyData Osaka Community"
 
 import pydata_sphinx_theme
